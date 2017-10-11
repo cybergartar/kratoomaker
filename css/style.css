@@ -12,6 +12,10 @@ body {
     -webkit-text-size-adjust: none;
 }
 
+.topic-title {
+    word-wrap: break-word !important; 
+}   
+
 .display-post {
     color: silver;
     font-size: 1em;
@@ -31,6 +35,7 @@ body {
     border-radius: 2px;
     position: relative;
     max-width: 500px;
+    text-align:justify;
 }
 
 .m-post-owner h1, .m-post-owner h2, .m-post-owner h3, .m-post-owner h5, .m-post-owner h6 {

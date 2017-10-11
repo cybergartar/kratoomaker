@@ -49,7 +49,7 @@
             </div>
 
             <div class="row">
-                <div class="m-post-owner mx-auto" style="width: 100%; text-align:justify;" id="topicArea">
+                <div class="m-post-owner mx-auto" style="width: 100%;" id="topicArea">
                     <h2 class="topic-title" id="topicreal">อยาก xxx พี่ yyy จังเลยค่ะ</h2>
                     <span class="topic-member" data="topic-member-604129"></span>
                         <div class="display-tag" id="tagDisplay">
@@ -58,7 +58,7 @@
                                 <a class="button tiny">ครอบครัว</a>&nbsp;
                         </div>
                         <div class="display-post-favourite remark-four-txt"><span class="icon-mini-posttype icon-mini-posttype-que"></span>กระทู้คำถาม</div>
-                        <div class="display-post" id="posttext">
+                        <div class="display-post" id="posttext" style="text-align:justify;">
                                 ช่วยน้องด้วยนะคะ
                         </div>
                         <div class="display-post">
@@ -70,19 +70,28 @@
                                     <a title="สมาชิกอย่างเป็นทางการ" class="icon-memberbadge-mini icon-memberbadge-smile" target="_blank"></a> 
                                     <br>
                                     <span class="display-post-timestamp" style="display:block">
-                                        <abbr class="timeago" id="datetopic">16 เมษายน 2556 เวลา  15:48:25 น.</abbr>
+                                        <abbr class="timeago" id="datetopic"></abbr>
                                     </span>
                                 </div>
                             </div>
-                            <!-- ### END avatar ### -->
                         </div>
-                        <!-- ### END display-post -->
                 </div>
             </div>
             <div class="row">
                 <div class="mx-auto">
-                    <button type="button" class="btn btn-secondary" style="margin-bottom: 3rem; margin-top: 1rem;">สร้างกระทู้</button>
+                    <button type="button" class="btn btn-secondary" style="margin-bottom: 1rem; margin-top: 1rem;" onclick="conv()">สร้างกระทู้</button>
                 </div>
+            </div>
+            <div class="row">
+                <div class="mx-auto" style="margin-bottom: 1rem;">
+                    <h5>อนึ่ง ปุ่มนี้ไม่ได้ไปตั้งกระทู้ที่เว็บสังคมอุดมคุณตะพาบอันดับหนึ่งของประเทศไทยแต่อย่างใด ไม่ต้องกลัวหรอกว่าจะมีคนรู้ว่าคุณอยากได้พี่คนนั้น</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mx-auto" id="savePls" style="margin-bottom: 1rem;"></div>
+            </div>
+            <div class="row">
+                <div class="mx-auto" id="resultDiv" style="margin-bottom: 1rem;"></div>
             </div>
         </div>
 
