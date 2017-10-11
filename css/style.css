@@ -1,0 +1,199 @@
+body {
+    background: #222;
+    color: #f0f0f0;
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    position: relative;
+    cursor: default;
+    -webkit-text-size-adjust: none;
+}
+
+.display-post {
+    color: silver;
+    font-size: 1em;
+    line-height: 1.563em;
+    padding-top: 30px;
+    word-wrap: break-word;
+}
+
+.m-post-owner {
+    margin-bottom: .5rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    margin-top: 1rem;
+    padding: .5rem .5rem 0;
+    background: #433f40;
+    border: 1px solid #777;
+    border-radius: 2px;
+    position: relative;
+    max-width: 500px;
+}
+
+.m-post-owner h1, .m-post-owner h2, .m-post-owner h3, .m-post-owner h5, .m-post-owner h6 {
+    line-height: 1.3em;
+    margin-bottom: .225rem;
+}
+
+.m-post-owner h1, .m-post-owner h2, .m-post-owner h3, .m-post-owner h5, .m-post-owner h6, .main-section h5 {
+    color: #ffcd05;
+    font-weight: 400;
+}
+
+blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.display-tag {
+    word-wrap: break-word;
+    display: inline-block;
+    margin: .6em 0;
+}
+
+.button.tiny, button.tiny {
+    background: #333;
+    border: 1px solid #777;
+    color: silver;
+    margin-right: 5px;
+    margin-top: 4px;
+    padding: 2px 5px;
+    text-decoration: none;
+    font-size: .813em;
+    display: inline-block;
+}
+
+.button {
+    background: #33315D;
+    border: 1px solid #6C6A8D;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.25em;
+    padding: 2px;
+}
+
+.m-post-owner .display-post-favourite {
+    font-size: 11px;
+    position: relative;
+    top: 13px;
+    white-space: nowrap;
+}
+
+.remark-four-txt {
+    color: #CCC!important;
+}
+
+.m-post-owner .display-post-favourite .icon-mini-posttype {
+    top: -3px;
+}
+
+.display-post {
+    color: silver;
+    font-size: 1em;
+    line-height: 1.563em;
+    padding-top: 30px;
+    word-wrap: break-word;
+}
+
+.hr-altcolor-01 {
+    margin: 10px 0;
+    padding: 0;
+    border-color: #8E8BA7;
+    opacity: .5;
+}
+
+hr {
+    border: solid #ddd;
+    border-width: 1px 0 0;
+    margin: 1.25rem 0 1.1875rem;
+    height: 0;
+}
+
+.display-post-avatar {
+    margin: 0;
+    text-align: left;
+    vertical-align: top;
+    white-space: nowrap;
+    float: left;
+}
+
+.display-post-avatar img{
+    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+.display-post-avatar-inner {
+    font-size: .829em;
+    line-height: 14px;
+    margin-left: 38px;
+    position: relative;
+}
+
+.icon-memberbadge-mini.icon-memberbadge-smile {
+    background-position: 0 0;
+}
+
+.display-post-avatar .icon-3rdparty-mini, .display-post-avatar .icon-memberbadge-mini {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon-memberbadge-mini.icon-memberbadge-bloggang {
+    background-position: 0 -40px;
+}
+
+.display-post-avatar .display-post-avatar-inner .display-post-timestamp, .display-post-avatar .display-post-avatar-inner .m-display-post-timestamp {
+    color: #90A8D1;
+    font-size: .929em;
+}
+
+abbr {
+    border-bottom: 0 none;
+}
+
+abbr {
+    text-transform: none;
+}
+
+abbr, acronym {
+    font-size: 90%;
+    border-bottom: 1px dotted #ddd;
+    cursor: help;
+}
+
+.icon-memberbadge-mini {
+    background: url(../img/icon-memberbadge-16x16.png) no-repeat;
+    height: 16px;
+    position: relative;
+    width: 16px;
+}
+
+.m-post-owner .icon-mini-posttype {
+    background: url(../img/icon-mini-posttype-16x16.png) no-repeat;
+    float: left;
+    height: 17px;
+    margin-right: 5px;
+    position: relative;
+    width: 17px;
+}
+
+.display-post-avatar img {
+    float: left;
+    height: 32px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 32px;
+}
+
+.display-post img, .m-display-post-story img, .m-post-owner img {
+    margin-bottom: .5em;
+}
