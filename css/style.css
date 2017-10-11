@@ -12,6 +12,10 @@ body {
     -webkit-text-size-adjust: none;
 }
 
+.topic-title {
+    word-wrap: break-word;
+}
+
 .display-post {
     color: silver;
     font-size: 1em;
