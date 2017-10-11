@@ -24,3 +24,27 @@ document.getElementById('tags').onkeyup = function() {
     }
     document.getElementById('tagDisplay').innerHTML = inner;
 }
+
+function setFontSize(elm, fontsize) {
+    elm.style.fontSize = fontsize;
+}
+
+var conv = function() {
+    var $wrapper = document.getElementById('topicArea')
+    var result = document.getElementById('resultDiv');
+    var notify = document.getElementById('savePls')
+    html2canvas($wrapper, {
+        letterRendering: false,
+        taintTest : false, 
+        useCORS: true,
+        onrendered: function(canvas) {
+            notify.innerHTML = "<h4>เซฟรูปไปใช้โลด</h4>"
+            if (result.hasChildNodes()) {
+                result.removeChild(result.childNodes[0])
+            }
+            result.appendChild(canvas)
+        }
+    })
+    
+    
+}
