@@ -12,7 +12,7 @@ $( document ).ready(function() {
 
     console.log("" + day + " " + month + " " + year + " " + hr + " " + min + " " + sec);
 
-    document.getElementById('datetopic').innerHTML = "" + day + " " + mon_thai[month] + " " + year + " เวลา  " + hr + ":" + min + ":" + sec + " น.";
+    document.getElementById('datetopic').innerHTML = "" + day + " " + mon_thai[month] + " " + year + " เวลา  " + (hr<10 ? "0" : "") + hr + ":" + (min < 10 ? "0":"") + min + ":" + (sec < 10 ? "0":"") + sec + " น.";
 });
 
 document.getElementById('tags').onkeyup = function() {
