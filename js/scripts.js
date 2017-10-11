@@ -24,3 +24,11 @@ document.getElementById('tags').onkeyup = function() {
     }
     document.getElementById('tagDisplay').innerHTML = inner;
 }
+
+var conv = function() {
+    html2canvas(document.getElementById('topicArea'), {
+        onrendered: function(canvas) {
+          document.body.appendChild(canvas);
+        }
+      });
+}
