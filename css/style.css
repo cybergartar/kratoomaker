@@ -1,5 +1,5 @@
 body {
-    background: #222;
+    background: #3c3863;
     color: #f0f0f0;
     padding: 0;
     margin: 0;
@@ -30,8 +30,8 @@ body {
     margin-right: .3rem;
     margin-top: 1rem;
     padding: .5rem .5rem 0;
-    background: #433f40;
-    border: 1px solid #777;
+    background: #193366;
+    border: 1px solid #535f86;
     border-radius: 2px;
     position: relative;
     max-width: 500px;
@@ -59,9 +59,9 @@ blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, t
 }
 
 .button.tiny, button.tiny {
-    background: #333;
-    border: 1px solid #777;
-    color: silver;
+    background: #0E2D61;
+    border: 1px solid #395D98;
+    color: #C0C0C0;
     margin-right: 5px;
     margin-top: 4px;
     padding: 2px 5px;
@@ -122,16 +122,6 @@ hr {
     vertical-align: top;
     white-space: nowrap;
     float: left;
-}
-
-.display-post-avatar img{
-    -webkit-filter: grayscale(1);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
-    filter: gray;
 }
 
 .display-post-avatar-inner {
